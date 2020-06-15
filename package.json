@@ -1,0 +1,24 @@
+{
+  "name": "geolocation-storage",
+  "version": "1.0.0",
+  "description": "Store the geolocation in localstorage",
+  "main": "dist/geolocStorage.js",
+  "types": "dist/geolocStorage.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "postinstall": "npm run build"
+  },
+  "author": {
+    "name": "Jason Aucordier",
+    "email": "jaucordi@gmail.com",
+    "url": "https://www.jaucordi.fr"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
